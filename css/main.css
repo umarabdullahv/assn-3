@@ -10,29 +10,29 @@ body {
     font-family: 'Trebuchet MS';
 }
 
-table {
-
-}
-
 /*Set hyperlink color*/
 a:link {
-    color:rgb(128,128,128) 
+    color:rgb(128,128,128) ;
+    font-size:large;
 }
 
 /*Set active hyperlink color*/
-a:active{
-    color: rgb(128,128,128)
+a:active {
+    color: rgb(128,128,128);
+    font-size: large;
 }
 
 /*Set visited hyperlink color*/
 a:visited {
-    color :rgb(128,128,128) 
+    color: rgb(128,128,128);
+    font-size: large;
 }
 
 /*Set hyperlink hover color*/
 a:hover {
     color: rgb(239,155,1);
     text-decoration: none;
+    font-size: large;
 }
 
 .setFont {
