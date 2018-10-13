@@ -1,8 +1,47 @@
 /**
 Sample css code
 */
+/* Set background for the page */
+
+/*Set page background color*/
+body {
+    background-color: black;
+    color: rgb(128,128,128);
+    font-family: 'Trebuchet MS';
+}
+
+table {
+
+}
+
+/*Set hyperlink color*/
+a:link {
+    color:rgb(128,128,128) 
+}
+
+/*Set active hyperlink color*/
+a:active{
+    color: rgb(128,128,128)
+}
+
+/*Set visited hyperlink color*/
+a:visited {
+    color :rgb(128,128,128) 
+}
+
+/*Set hyperlink hover color*/
+a:hover {
+    color: rgb(239,155,1);
+    text-decoration: none;
+}
+
+.setFont {
+    color: rgb(128,128,128);
+    text-align: center;
+    font-size: medium
+}
+
 /* Set height to 100% for body and html to enable the background image to cover the whole page: */
-body,
 html {
   height: 100%;
 }
@@ -41,7 +80,7 @@ html {
 }
 
 /*Change text color and decoration for a tags inside middle class and ul>li element*/
-.middle ul li a:hover {
-  color: red;
-  text-decoration: none;
-}
+    .middle ul li a:hover {
+        color: rgb(239,155,1);
+        text-decoration: none;
+    }
